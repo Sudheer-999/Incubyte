@@ -1,0 +1,84 @@
+.nav-container {
+  padding: 8px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
+.nav-head {
+  font-family: Roboto;
+  color: #2849b9;
+  font-size: 20px;
+}
+
+.nav-option {
+  font-family: Roboto;
+  color: #6980ce;
+  margin-right: 12px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-options {
+  display: none;
+}
+
+.menu-icon {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-options {
+    display: flex;
+  }
+}
+
+#can {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 0px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .sm-options {
+    display: none;
+  }
+}
+
+#can.active {
+  display: flex;
+  height: 200px;
+  transition: height 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  #can.active {
+    height: 0px;
+  }
+}
+
+.inactive {
+  display: none;
+  transition: height 0.3s ease-in-out;
+}
+
+.link-text {
+  text-decoration: none;
+  color: #7086d0;
+  cursor: pointer;
+}

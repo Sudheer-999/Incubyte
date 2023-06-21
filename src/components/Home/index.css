@@ -1,0 +1,191 @@
+.first-con {
+  background-image: url("https://res.cloudinary.com/djzsbpran/image/upload/v1687332487/bg1_cdcn52.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 870px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  font-family: Roboto;
+}
+
+.home-head {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-head {
+    font-size: 43px;
+  }
+}
+
+.highlighted {
+  color: #4066c4;
+}
+
+.inner-con {
+  align-self: stretch;
+  background-color: #3457bf;
+  opacity: 0.95;
+  padding: 10px;
+  color: #d6ddf2;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+  color: #d6ddf2;
+}
+
+.about-head {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .inner-con {
+    text-align: left;
+    padding: 20px;
+  }
+
+  .about-head {
+    font-size: 28px;
+    color: #fff;
+  }
+
+  .description {
+    font-size: 19px;
+    color: #d6ddf2;
+  }
+}
+
+.second-con {
+  background-color: #eaefff;
+  padding: 30px;
+}
+
+.expertise-head {
+  text-align: center;
+  color: #2849b9;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .expertise-head {
+    margin-top: 0px;
+  }
+}
+
+.bhogi {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.card {
+  background-color: #a2d8f2;
+  height: 100%;
+  width: 97%;
+  border-radius: 10px;
+  border: 2px solid #ecf7fc;
+  padding: 15px;
+  margin-top: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (min-width: 576px) {
+  .card {
+    width: 44%;
+    height: 150px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .card {
+    width: 20%;
+    height: 180px;
+  }
+}
+
+.card-head {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-desc {
+  font-size: 18px;
+  color: #314149;
+  font-weight: 400;
+}
+
+.cards-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.third-con {
+  background-image: url("https://res.cloudinary.com/djzsbpran/image/upload/v1687344694/bg4_tzw5wc.jpg");
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.success-desc {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.end-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #a2d8f2;
+  padding: 15px;
+}
+
+.end-desc {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.contact-button {
+  height: 34px;
+  width: 120px;
+  background-color: #3457bf;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.footer {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 12px;
+}
